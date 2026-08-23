@@ -1,3 +1,3 @@
 db.url=jdbc:mysql://localhost:3306/oficina_db?useSSL=false&serverTimezone=UTC
-db.user=SEU_USUARIO_AQUI
+db.user=SEU_NOME_DE_UTILIZADOR_AQUI
 db.password=SUA_SENHA_AQUI
