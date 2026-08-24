@@ -12,7 +12,7 @@ associar componentes/peças e automatizar o cálculo de orçamentos e faturaçã
 * **Persistência:** JDBC (Java Database Connectivity) & Padrão DAO (Data Access Object)
 
 ##  Estrutura do Projeto
-
+` 
 text
 ├── src/
 │   ├── dao/          # CRUD e persistência (ServicoDAO, ComponenteDAO)
@@ -21,6 +21,7 @@ text
 ├── schema.sql        # Script de criação da base de dados e tabelas
 ├── db.properties.example # Modelo de configuração da base de dados
 └── README.md
+`
 
 ##  Como Executar o Projeto Localmente
 
