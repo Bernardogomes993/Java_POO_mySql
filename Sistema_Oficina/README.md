@@ -34,16 +34,12 @@ text
 ### 3. Configurar as Credenciais de Acesso
 1. Na raiz do projeto, crie uma cópia do ficheiro `db.properties.example` e renomeie-a para `db.properties`.
 2. Altere o utilizador e a palavra-passe com as credenciais do seu MySQL local:
+```
 properties
-
-
 db.url=jdbc:mysql://localhost:3306/oficina_db?useSSL=false&serverTimezone=UTC
-
-
 db.user=root
-
-
 db.password=sua_palavra_passe_aqui
+```
 
 ### 4. Executar
 Abra o projeto no **IntelliJ IDEA** (ou outra IDE) e execute a classe `Main.java`.
